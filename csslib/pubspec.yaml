@@ -1,0 +1,19 @@
+name: csslib_benchmark
+dependencies:
+  csslib:
+    git:
+      url: git@github.com:dart-lang/csslib.git
+      ref: master
+dependency_overrides:
+  path:
+    git:
+      url: git@github.com:dart-lang/path.git
+      ref: master
+  args:
+    git:
+      url: git@github.com:dart-lang/args.git
+      ref: master
+  logging:
+    git:
+      url: git@github.com:dart-lang/logging.git
+      ref: master

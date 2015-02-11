@@ -1,0 +1,6 @@
+name: deps_tracker
+description: Tracks changes in dependencies of a package.
+dependencies:
+  path: ^1.3.2
+  cli_util: ^0.0.1
+  yaml: ^2.1.2
