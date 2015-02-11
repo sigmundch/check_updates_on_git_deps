@@ -7,7 +7,7 @@ benchmarks on the latest version of every package.
 Simply run the binary on a pubspec.yaml file like this:
 
 ```bash
-  git clone https://github.com/sigmundch/check_updates_on_git_deps
+  git clone git@github.com:sigmundch/check_updates_on_git_deps.git
   cd check_updates_on_git_deps
   pub get
   pub run check_updates csslib/pubspec.yaml
